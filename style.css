@@ -1,0 +1,765 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Menu */
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#f7daac, #ffff);
+    padding: 32px;
+}
+
+.logo{
+    position: relative;
+    right: 200px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.logo p{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    padding-left: 5px;
+    padding-top: 3px;
+
+}
+
+.menu_lista{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 700px;
+    text-decoration: underline;
+}
+
+.menu_lista a{
+    text-decoration: none;
+    color: #d44811;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+.menu_lista a:nth-child(6){
+    color: #2b1204;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Seccion 0 */
+
+.Title{
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: content-box;
+    height: 450px;
+    padding-left: 200px;
+    background-color: #0e0c0d;
+}
+.Title_div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+}
+.Title_div h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    color: #1f130a;
+    padding-top: 60px;
+}
+.Title_div p{
+    padding-top: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #1f130a;
+}
+.title__network{
+    padding-top: 20px;
+}
+.title__network a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #d44811;
+}
+.title__network img{
+    position: relative;
+    top: 4px;
+}
+.perfil{
+    position: relative;
+    right: 150px;
+    top: 30px;
+    width: 370px;
+    height: 370px;
+    box-sizing: border-box;
+}
+.perfil img{
+    box-sizing: border-box;
+    width: 368px;
+    height: 430px;
+    border-radius: 500px;
+}
+
+/* Seccion Sobre mí */
+
+.seccion2-container{
+    display: flex;
+    background-color: #ffff;
+    width: 100%;
+    height: 421px;
+}
+
+.seccion-sobre-mi{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 400px;
+    padding-right: 80px;
+    padding-top: 80px;
+}
+.seccion-sobre-mi h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #1f130a;
+}
+.seccion-sobre-mi p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1f130a;
+    padding-top: 30px;
+    
+}
+
+/* SKIILS */
+
+.skills{
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+.skills{
+    background-color:#fffbf8;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.skills .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.skills .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+    padding-top: 30px;
+}
+
+.skills .box-container .box{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+    border: 2px solid #f7daac;
+}
+
+.skills .box-container .box img{
+    height: 50px;
+}
+.skills .box-container .box h3{
+    line-height: 2.8;
+}
+
+/*FORMACION ACADEMICA*/
+.container-formacion{
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+.container-formacion{
+    background-color: #FFFBF8;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+    
+}
+
+.container-formacion .heading{
+    text-align: center;
+    padding-bottom:15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+    margin-top: 2rem;
+}
+
+.container-formacion .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 80px 15px;
+    padding-top: 70px;
+}
+
+.container-formacion .box-container .box{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    border: 2px solid #f7daac
+}
+
+.container-formacion .box-container .box img{
+    height: 100px;
+}
+.container-formacion .box-container h3{
+  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #464646;
+
+}
+
+.container-formacion .box-container p{
+    font-size: 1rem;
+    color: #464646;
+    font-weight: 500;
+}
+
+.container-formacion .box-container h3{
+    position: absolute;
+    margin-top: 3.5rem;
+}
+.container-formacion .box-container p{
+    position: absolute;
+    margin-top: 5.5rem;
+   
+}
+
+/* EXPERIENCIA PROFESIONAL */
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    background-color: #FFFBF8;
+}
+
+.experience__section__title {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.experiencie__box{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10rem 3rem;
+    gap: 1rem;
+}
+
+.experiencie__box:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.experience__title{
+    font-size: 1.375rem;
+    font-weight:700;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+}
+
+.experience__text{
+    font-size:1rem;
+    font-weight: 500;
+    padding-top: 0.5rem;
+}
+
+.CV{
+    border: 1px solid;
+    border-color: #e4b22a;
+    background-color: #e4b22a;
+    color:#ffff;
+    cursor: pointer;
+}
+
+.experiencia__botao--repo{
+    margin: 0.5rem;
+    border:1px solid;
+    border-color: #e4b22a;
+    color: #000;
+    font-size: 1rem;
+    width: 116px;
+    height: 51px;
+    cursor: pointer;  
+}
+
+.experience__botao--demo{
+    margin: 0.5rem;
+    border:1px solid;
+    border-color: #e4b22a;
+    background-color: #e4b22a;
+    color: #fff;
+    font-size: 1rem;
+    width: 116px;
+    height: 51px;
+    cursor: pointer;
+}
+
+/* Contacto */
+
+.input-container {
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+
+.formcontato{
+    background: linear-gradient(#FFFBF8, #ffff);
+    width: 100%;
+    height: 660px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.formcontato__contacto{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    gap:1.5rem;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.formcontato__title{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.375rem; 
+    padding-bottom: 0.5rem;
+ }
+
+.formcontato__subtext{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+}
+.input-label{
+    color: #A2A2A2;
+}
+
+.formcontato__input{
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    border-bottom: solid 2px #e4b22a;
+    width: 656px;
+    height: 58px;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.formcontato__input::placeholder, .formcontato__textarea::placeholder{
+    visibility: hidden;
+
+}
+
+.formcontato__input:focus, .formcontato__textarea:focus{
+  outline: none;
+}
+
+.input-label, .textarea-label {
+    position: absolute;
+    font-family: 'Raleway';
+    top:1.2rem;
+    left:1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    transition: all 0.25s;
+}
+
+.formcontato__textarea {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 4px;
+    border:none;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    resize: none;
+}
+.textarea-label{
+    color: #A2A2A2;
+}
+.formcontato__botao{
+    width: 165px;
+    height: 51px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #e4b22a;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.formcontato__input:not(:placeholder-shown) + .input-label,
+.formcontato__input:focus + .input-label,
+.formcontato__textarea:not(:placeholder-shown) + .textarea-label,
+.formcontato__textarea:focus + .textarea-label {
+  font-size: 0.875rem;
+  top: 0.42rem;
+  transition: all 0.25s;
+}
+
+  .input-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-container--invalid .formcontato__input {
+    border: 4px solid #ff0000;
+    border-radius: 7px;
+  }
+  
+  .input-container--invalid .input-label {
+    color: #ff0000;
+    font-weight: 700;
+  }
+  
+  .input-message-error {
+    display: none;
+  }
+  
+  .input-container--invalid .input-message-error {
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+ 
+/*Footer*/
+
+.footer{
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color:#464646;
+    text-align: center; 
+    background: linear-gradient(#FFFBF8, #f7daac); 
+}
+
+/*Responsive*/
+
+@media (max-width: 1440px){ 
+    .Title{
+        display: flex;
+        justify-content: space-evenly;
+        box-sizing: content-box;
+        height: 450px;
+        padding-left: 100px;
+        background-color:#ffff;
+    }
+    .perfil{
+        right: 50px;   
+    }
+    .logo{
+        right: 100px;
+    }
+    .logo p{
+        padding-left: 10px;
+    }
+    .seccion2-container{
+        display: flex;
+        background-color:#ffff;
+        width: 100%;
+        height: 360px;
+    }
+    .seccion-sobre-mi{
+        padding-left: 180px;
+    }
+}
+
+/* Tableta */
+
+@media (max-width: 768px){ 
+    .menu_lista{ 
+        left: 30px; 
+    }
+
+    .logo{
+        position: relative;
+        left: 1px;
+    }
+
+    .logo p{
+        padding-left: 10px;
+    }
+
+    .Title{
+        height: 550px;
+        padding-left: 50px;
+        background-color: #F5F5F5;
+    }
+    .Title_div h1{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        color: #464646;
+        padding-top: 60px;
+    }
+    .Title_div p{
+        padding-top: 20px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #464646;
+    }
+    .perfil{
+        right: 20px;
+        top: 90px;
+    }
+    .perfil img{
+        width: 268px;
+        height: 340px;
+    }
+
+    /*Sobre mí*/
+
+    .seccion2-container{
+        display: flex;
+        background-color: #ffff;
+        width: 100%;
+        height: 367px;
+    }
+    .seccion-sobre-mi{
+        padding-left: 90px;
+        padding-top: 40px;
+    }
+    .seccion-sobre-mi p{
+        padding-right: 50px;
+    }
+
+    /* Experiencia */
+
+    .experiencie__box{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 5rem 1rem;
+        gap: 2rem;  
+    }
+    .experience__img{
+        width: 60%;
+    }
+
+    /* Contacto */
+
+    .formcontato--esquerda{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px){
+    nav{
+        display: flex;
+        background-color: #F5F5F5;
+        padding: 15px;
+    }
+    .logo{
+        position: absolute;
+        left: 10px;
+        display: grid;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    .logo p{
+        position: absolute;
+        left: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color: #464646;
+        padding-left: 5px;
+        padding-top: 3px;
+    
+    }
+
+    .menu_lista{
+        position: relative;
+        box-sizing: border-box;
+        width: 200px;
+        
+    }
+    .menu_lista a{
+        text-decoration: none;
+        color: #464646;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+    }
+    .menu_lista a:nth-child(1){
+        display: none;
+    }
+    .menu_lista a:nth-child(2){
+        display: none;
+    }
+    .menu_lista a:nth-child(3){
+        display: none;
+    }
+    .menu_lista a:nth-child(4){
+        display: none;
+    }
+    .menu_lista a:nth-child(5){
+        display: none;
+    }
+    .menu_lista a:nth-child(6){
+        padding-left: 105px;
+        padding-top: 20px;
+    }
+
+    .perfil{
+        position: absolute;
+        left: 70px;
+        top: 70px;
+        width: 270px;
+        height: 270px;
+        box-sizing: border-box;
+    }
+    .perfil img{
+        position: absolute;
+        right: 70px;
+        box-sizing: border-box;
+        width: 230px;
+        height: 290px;
+        border-radius: 200px;
+        
+    }
+
+    .Title{
+        height: 780px;
+        padding-left: 25px;
+        padding-right: 20px;
+        background-color: #F5F5F5;
+    }
+    .Title_div{
+        padding-top: 200px;   
+    }
+    .seccion2-container{
+        display: flex;
+        background-color: #ffff;
+        width: 100%;
+        height: 480px;
+    }
+    .seccion-sobre-mi{
+        padding-left: 25px;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+    .seccion-sobre-mi p{
+        padding-right: 30px;
+    }
+    .formcontato__text{
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+
+     /* Experiencia */
+
+     .experience {
+        display: flex;
+        flex-direction: column;
+        background-color: #F5F5F5;
+    }
+    .experiencie__box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .experiencie__box img{
+        width: 300px;
+    }
+    .experience__img{
+        width: 100%;
+    }
+    .experience__description{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    /*Contacto*/
+
+    .formcontato__text{
+        width: 80%;
+    }
+    .input-container{
+        width: 100%;
+    }
+    .formcontato__input{
+        width: 95%;
+    }
+    .formcontato__textarea{
+        width: 95%;
+    }
+}
+
